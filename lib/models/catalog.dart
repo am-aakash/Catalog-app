@@ -14,16 +14,7 @@ import 'dart:convert';
 // }
 
 class CatalogModel {
-  static List<Item> items = [
-    Item(
-        id: 1,
-        name: "iPhone 12 pro",
-        desc: "Apple iphone 12th generation",
-        price: 999,
-        color: "#33505a",
-        image:
-            "https://media-exp1.licdn.com/dms/image/C4E03AQGBkPlfDtpnCA/profile-displayphoto-shrink_400_400/0/1609613143314?e=1626912000&v=beta&t=ExB3dnvrVwl5bI2U4G_Hp2LUgnRrgAYznZIcRAQvXco")
-  ];
+  static List<Item> items;
 }
 
 class Item {
